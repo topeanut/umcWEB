@@ -1,58 +1,12 @@
 import React, { useState } from "react";
 import styled from "styled-components";
 
-const Title = styled.div`
-  width: 100%;
-  height: 250px;
-  background-image: linear-gradient(
-      0deg,
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("https://movie-phinf.pstatic.net/20210715_95/1626338192428gTnJl_JPEG/movie_image.jpg");
-  background-position: center;
-  background-size: cover;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-`;
-
-const TitleButton = styled.button`
-  width: 200px;
-  height: 50px;
-  background-color: transparent;
-  color: white;
-  border-radius: 50px;
-  border: 1px solid white;
-  margin-top: 10px;
-`;
-
 const Post = styled.div`
   width: 95%;
   max-width: 500px;
   margin: 20px auto 0px auto;
   padding: 20px;
   box-shadow: 0px 0px 3px 0px gray;
-`;
-
-const FormFloating = styled.div`
-  input {
-    /* 입력 요소에 대한 스타일 설정 */
-  }
-  label {
-    /* 레이블 요소에 대한 스타일 설정 */
-  }
-`;
-
-const InputGroup = styled.div`
-  label {
-    /* 레이블 요소에 대한 스타일 설정 */
-  }
-  select {
-    /* 선택 요소에 대한 스타일 설정 */
-  }
 `;
 
 const Comment = styled.div`
